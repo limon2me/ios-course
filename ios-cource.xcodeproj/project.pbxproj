@@ -13,6 +13,9 @@
 		7B1E82EC2BF76C50007F8B9B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E82EB2BF76C50007F8B9B /* Base */; };
 		7B1E82EE2BF76C52007F8B9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E82ED2BF76C52007F8B9B /* Assets.xcassets */; };
 		7B1E82F12BF76C52007F8B9B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7B1E82F02BF76C52007F8B9B /* Base */; };
+		7B1E82F92BF88302007F8B9B /* FontBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E82F82BF88302007F8B9B /* FontBuilder.swift */; };
+		7B1E82FB2BF8832C007F8B9B /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E82FA2BF8832C007F8B9B /* TestData.swift */; };
+		7B1E82FD2BF88359007F8B9B /* CourseCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1E82FC2BF88359007F8B9B /* CourseCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		7B1E82ED2BF76C52007F8B9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B1E82F02BF76C52007F8B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B1E82F22BF76C52007F8B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B1E82F82BF88302007F8B9B /* FontBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontBuilder.swift; sourceTree = "<group>"; };
+		7B1E82FA2BF8832C007F8B9B /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		7B1E82FC2BF88359007F8B9B /* CourseCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				7B1E82E42BF76C50007F8B9B /* AppDelegate.swift */,
 				7B1E82E62BF76C50007F8B9B /* SceneDelegate.swift */,
 				7B1E82E82BF76C50007F8B9B /* ViewController.swift */,
+				7B1E82FC2BF88359007F8B9B /* CourseCardView.swift */,
+				7B1E82F82BF88302007F8B9B /* FontBuilder.swift */,
+				7B1E82FA2BF8832C007F8B9B /* TestData.swift */,
 				7B1E82EA2BF76C50007F8B9B /* Main.storyboard */,
 				7B1E82ED2BF76C52007F8B9B /* Assets.xcassets */,
 				7B1E82EF2BF76C52007F8B9B /* LaunchScreen.storyboard */,
@@ -140,7 +149,10 @@
 			files = (
 				7B1E82E92BF76C50007F8B9B /* ViewController.swift in Sources */,
 				7B1E82E52BF76C50007F8B9B /* AppDelegate.swift in Sources */,
+				7B1E82F92BF88302007F8B9B /* FontBuilder.swift in Sources */,
+				7B1E82FB2BF8832C007F8B9B /* TestData.swift in Sources */,
 				7B1E82E72BF76C50007F8B9B /* SceneDelegate.swift in Sources */,
+				7B1E82FD2BF88359007F8B9B /* CourseCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
