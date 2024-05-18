@@ -136,6 +136,17 @@ final class CourseCardView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
 
+    override func layoutSubviews() {
+        actionButton.layer.insertSublayer(
+            gradientLayer(actionButton.bounds),
+            at: 0
+        )
+        favouriteButton.layer.insertSublayer(
+            gradientLayer(favouriteButton.bounds),
+            at: 0
+        )
+    }
+
     func configure(from viewModel: ViewModel) {
         coverImageView.image = viewModel.cover
         titleLabel.text = viewModel.title
@@ -179,17 +190,6 @@ final class CourseCardView: UIView {
             favouriteButton.widthAnchor.constraint(equalToConstant: 56.0),
             favouriteButton.heightAnchor.constraint(equalToConstant: 56.0),
         ])
-    }
-
-    override func layoutSubviews() {
-        actionButton.layer.insertSublayer(
-            gradientLayer(actionButton.bounds),
-            at: 0
-        )
-        favouriteButton.layer.insertSublayer(
-            gradientLayer(favouriteButton.bounds),
-            at: 0
-        )
     }
 
     private func gradientLayer(_ frame: CGRect) -> CAGradientLayer {
